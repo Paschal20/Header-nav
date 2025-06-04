@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+}
+.header {
+  background-color: aqua;
+
+  display: flex;
+  justify-content: space-between;
+  width: 1350px;
+  height: 40px;
+
+  align-items: center;
+}
+
+.navsHolder {
+  display: flex;
+  align-items: center;
+  font-family: poppins;
+  font-size: 14px;
+}
+.signIn {
+  margin-right: 40px;
+  background-color: white;
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: none;
+}
+.navs {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.navs a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 600;
+}
+.signIn a {
+  text-decoration: none;
+}
+
+.question {
+  margin: 10px;
+  font-family: poppins;
+}
+.question span {
+  color: red;
+}
